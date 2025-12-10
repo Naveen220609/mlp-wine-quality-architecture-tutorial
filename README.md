@@ -69,7 +69,7 @@ If you cannot include the CSV directly in the repo, add these instructions to he
 jupyter notebook
 text
 
-2. Open `notebook/mlp_wine_quality.ipynb`.
+2. Open `mlp_wine_quality.ipynb`.
 
 3. Run all cells from top to bottom. This will:
 
@@ -97,7 +97,7 @@ All plots use a colour‑blind‑friendly seaborn palette and larger fonts for b
 - Test accuracy ≈ **0.916** (very similar to baseline).
 - Deeper models with 2 or 3 hidden layers reach almost perfect training accuracy but **do not** improve validation or test accuracy, showing mild overfitting.
 
-The report in `report/mlp_wine_quality_report.pdf` explains these findings in plain language, including simple descriptions of **ReLU**, **Adam**, and **alpha** for readers new to neural networks.
+The report in `mlp_wine_quality_report.pdf` explains these findings in plain language, including simple descriptions of **ReLU**, **Adam**, and **alpha** for readers new to neural networks.
 
 ---
 
